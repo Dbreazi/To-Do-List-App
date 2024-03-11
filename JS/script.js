@@ -3,24 +3,10 @@ function newItem () {
 
 // Adding a new item
 
-// Version 1
-
-//   let li = $('<li></li>');
-//   let inputValue = $('#input').val();
-//   li.append(inputValue);
-
-//   if (inputValue === '') {
-//       alert("You MUST write something");
-//   } else {
-//       $('#list').append(li);
-//   }
-
-
-// Version 2
 
 let inputValue = $('input').val();
 if (inputValue === '') {
-  aleert("You MUST write something");
+  alert("You MUST write something");
 return;
 }
 let li = $('<li></li>').text(inputValue);
